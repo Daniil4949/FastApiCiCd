@@ -1,5 +1,5 @@
 name: FastAPI CI/CD
-
+on: push
 
 jobs:
   CI:
