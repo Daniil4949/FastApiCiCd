@@ -1,0 +1,3 @@
+pipenv shell
+pipenv install --dev
+uvicorn app.main:app --reload
