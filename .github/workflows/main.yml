@@ -25,5 +25,4 @@ jobs:
         with:
             python-version: '3.10'
       - run: | 
-          pipenv install  pytest
           python -m pytest --import-mode=append tests/
