@@ -1,3 +1,10 @@
-pipenv shell
-pipenv install --dev
+py -m venv venv
+pip install uvicorn
+pip install fastapi
 uvicorn app.main:app --reload
+pip install pytest
+pip install requests
+pip freeze > requirements.txt
+pip install magnum
+
+aws configure
